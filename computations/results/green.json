@@ -1,0 +1,23 @@
+{
+  "case": "green",
+  "python": "3.12.3",
+  "result": {
+    "constraint_scalar": "1/18",
+    "curl_eigenvalues": [
+      "-3",
+      "3"
+    ],
+    "dual_factor": "1/1296",
+    "frequency": [
+      1,
+      2,
+      2
+    ],
+    "missing_contraction_transverse": "Matrix([[1/18], [-1/36], [0]])",
+    "one_response": "-1/18",
+    "scalar": "-1/9",
+    "wrong_dual_scalar": "1/9",
+    "york": "Matrix([[-35/324, 1/162, 1/162], [1/162, -8/81, 1/81], [1/162, 1/81, -8/81]])"
+  },
+  "sympy": "1.14.0"
+}

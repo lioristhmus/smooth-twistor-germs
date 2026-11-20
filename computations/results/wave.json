@@ -1,0 +1,22 @@
+{
+  "case": "wave",
+  "python": "3.12.3",
+  "result": {
+    "boost_degree_one": [
+      1,
+      1,
+      1
+    ],
+    "boost_degree_zero": [
+      "1",
+      "3/2",
+      "3/4"
+    ],
+    "branch": "I*b/s",
+    "half_density_generator": "(I*b - 1/2)/s",
+    "klein_gordon_charge": "2*b",
+    "missing_amplitude": "-1/(2*s)",
+    "opposite_charge": "-2*b"
+  },
+  "sympy": "1.14.0"
+}

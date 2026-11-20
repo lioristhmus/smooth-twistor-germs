@@ -1,0 +1,41 @@
+{
+  "case": "analytic",
+  "python": "3.12.3",
+  "result": {
+    "analytic_frame": "1",
+    "cartesian_jacobian": "23/12",
+    "even_parity_fails": true,
+    "formal_column": [
+      {
+        "degree0": "-32*sqrt(2)*I/59049",
+        "degree1": "-sqrt(2)*I/3",
+        "xi": [
+          "-2",
+          "-1",
+          "-1/4"
+        ]
+      },
+      {
+        "degree0": "-3564544*sqrt(138)*I/4692094047",
+        "degree1": "-2*sqrt(138)*I/69",
+        "xi": [
+          "-2",
+          "-1",
+          "59/16"
+        ]
+      }
+    ],
+    "frame_ratio": "1",
+    "metric_square_at_scale3": "1/9",
+    "relative_unit_scale": "1/3",
+    "ruled_map": [
+      "4*t",
+      "u/4",
+      "v/4"
+    ],
+    "spin": "diag(2,1/2)",
+    "wave_frame": "1",
+    "wrong_initialized_root": "-1"
+  },
+  "sympy": "1.14.0"
+}

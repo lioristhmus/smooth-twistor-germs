@@ -1,0 +1,40 @@
+{
+  "case": "wave",
+  "started": "2026-11-19T02:31:00.759108+00:00",
+  "finished": "2026-11-19T02:31:04.636912+00:00",
+  "image": "sha256:e068670ae5863b54b2550e72437ec637b0283acb0dc712c8584c124dbf44e667",
+  "image_ref": "sagemath/sagemath@sha256:e068670ae5863b54b2550e72437ec637b0283acb0dc712c8584c124dbf44e667",
+  "state": {
+    "Status": "exited",
+    "Running": false,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "Dead": false,
+    "Pid": 0,
+    "ExitCode": 0,
+    "Error": "",
+    "StartedAt": "2026-11-19T02:31:03.067797551Z",
+    "FinishedAt": "2026-11-19T02:31:04.591537093Z"
+  },
+  "memory_and_swap_bytes": 805306368,
+  "swap_extra_bytes": 0,
+  "cpus": 1,
+  "pid_limit": 48,
+  "internal_timeout_s": 150,
+  "host_timeout_s": 165,
+  "network": "none",
+  "restart": "no",
+  "tmpfs_bytes": 33554432,
+  "shm_bytes": 8388608,
+  "log_limit": "64k x 1",
+  "file_size_bytes": 65536,
+  "observed_cgroup": "memory.max=805306368\nmemory.swap.max=0\ncpu.max=100000 100000\npids.max=48\ninterfaces=bonding_masters\nerspan0\ngre0\ngretap0\nip6_vti0\nip6gre0\nip6tnl0\nip_vti0\nlo\nsit0\ntunl0",
+  "sha256": {
+    "check.py": "654bcdf37864dee883fb9ebd4febab64121ba3316af0dd376e19f87b8a680fb6",
+    "wave.py": "e2b4dae758c535e3dacc683f19e7eb3acdd988d248c5e98fd523cb1c78534e48",
+    "wave.json": "71c454bcee029dd0cd92cbbd1f2027a8f0ce75ad66697cde0bb88d2087d0b032"
+  },
+  "recorded_runner_sha256": "0f8e573ccd188785aa4d13b966de23bae232ede65b233cc9fc88504a1ea8bc19",
+  "original_receipt_sha256": "6021b5016f2daeca80b05447d04ec5990608e255f3bf880b8ff40e94cb1e0363"
+}

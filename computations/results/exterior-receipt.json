@@ -1,0 +1,40 @@
+{
+  "case": "exterior",
+  "started": "2026-11-19T02:30:56.723181+00:00",
+  "finished": "2026-11-19T02:31:00.612255+00:00",
+  "image": "sha256:e068670ae5863b54b2550e72437ec637b0283acb0dc712c8584c124dbf44e667",
+  "image_ref": "sagemath/sagemath@sha256:e068670ae5863b54b2550e72437ec637b0283acb0dc712c8584c124dbf44e667",
+  "state": {
+    "Status": "exited",
+    "Running": false,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "Dead": false,
+    "Pid": 0,
+    "ExitCode": 0,
+    "Error": "",
+    "StartedAt": "2026-11-19T02:30:59.027781132Z",
+    "FinishedAt": "2026-11-19T02:31:00.569034966Z"
+  },
+  "memory_and_swap_bytes": 805306368,
+  "swap_extra_bytes": 0,
+  "cpus": 1,
+  "pid_limit": 48,
+  "internal_timeout_s": 150,
+  "host_timeout_s": 165,
+  "network": "none",
+  "restart": "no",
+  "tmpfs_bytes": 33554432,
+  "shm_bytes": 8388608,
+  "log_limit": "64k x 1",
+  "file_size_bytes": 65536,
+  "observed_cgroup": "memory.max=805306368\nmemory.swap.max=0\ncpu.max=100000 100000\npids.max=48\ninterfaces=bonding_masters\nerspan0\ngre0\ngretap0\nip6_vti0\nip6gre0\nip6tnl0\nip_vti0\nlo\nsit0\ntunl0",
+  "sha256": {
+    "check.py": "654bcdf37864dee883fb9ebd4febab64121ba3316af0dd376e19f87b8a680fb6",
+    "exterior.py": "3f0a4c2d9ccc7c7dc658a1ad3ee54b096ecf24ed8d71d6f0c8c39fe75ee4d2a0",
+    "exterior.json": "c68f976e0bd76a7e0591ae35083eec761fab56a3fb4643517416415f2994bca2"
+  },
+  "recorded_runner_sha256": "0f8e573ccd188785aa4d13b966de23bae232ede65b233cc9fc88504a1ea8bc19",
+  "original_receipt_sha256": "dcd1faf22e279d33fdb03fa3804772522c055cf1ac2f668724f7b54b67de70ba"
+}

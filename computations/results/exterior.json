@@ -1,0 +1,24 @@
+{
+  "case": "exterior",
+  "python": "3.12.3",
+  "result": {
+    "cutoff_missing_frame_factor": [
+      "51/40",
+      "51/40",
+      "71/60",
+      "71/60"
+    ],
+    "degrees": "symbolic l>=2",
+    "divergence_free_wrong_range_l2": "5",
+    "electric_residual": "0",
+    "low_tensor_norm": [
+      "0",
+      "0",
+      "12",
+      "60"
+    ],
+    "magnetic_residual": "0",
+    "wrong_magnetic_shift_residual": "2*e/r (wrong minus correct)"
+  },
+  "sympy": "1.14.0"
+}

@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: Please cite the preprint using the preferred citation below.
+title: A two-chirality twistor correspondence for smooth Lorentzian Ricci-flat germs
+type: dataset
+authors:
+- given-names: Lior
+  family-names: Isthmus
+  orcid: https://orcid.org/0009-0004-7908-9876
+version: '1.0'
+url: https://github.com/lioristhmus/smooth-twistor-germs/releases/tag/v1.0
+repository-code: https://github.com/lioristhmus/smooth-twistor-germs
+license:
+- CC-BY-4.0
+- Apache-2.0
+keywords:
+- twistor theory
+- Ricci-flat Lorentzian metrics
+- Einstein vacuum equations
+- CR cohomology
+- spin geometry
+- microlocal analysis
+preferred-citation:
+  type: unpublished
+  title: A two-chirality twistor correspondence for smooth Lorentzian Ricci-flat germs
+  authors:
+  - given-names: Lior
+    family-names: Isthmus
+    orcid: https://orcid.org/0009-0004-7908-9876
+  year: 2026
+  version: '1.0'
+  url: https://github.com/lioristhmus/smooth-twistor-germs/releases/tag/v1.0

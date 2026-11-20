@@ -1,0 +1,24 @@
+{
+  "title": "A two-chirality twistor correspondence for smooth Lorentzian Ricci-flat germs",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Isthmus, Lior",
+      "orcid": "0009-0004-7908-9876"
+    }
+  ],
+  "description": "This preprint gives a local two-chirality twistor presentation of smooth pointed, oriented and time-oriented Lorentzian Ricci-flat four-germs with spin at their physical scale. Two ordinary cohomology classes on a fixed flat hypersurface twistor CR space determine maximal vacuum data. Conversely, a physical germ determines a local comparison class of presentations. A covariant wave kernel relates the presentations across spacelike carriers. The supplement records four finite exact checks concerning the constraint inverses, exterior momentum range, wave transport and analytic comparison. The manuscript, documentation, computational inputs and saved results are licensed under CC BY 4.0. Executable code is licensed under Apache-2.0.",
+  "version": "1.0",
+  "language": "eng",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "twistor theory",
+    "Ricci-flat Lorentzian metrics",
+    "Einstein vacuum equations",
+    "CR cohomology",
+    "spin geometry",
+    "microlocal analysis"
+  ]
+}
