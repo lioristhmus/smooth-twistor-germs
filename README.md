@@ -6,6 +6,8 @@ Two ordinary cohomology classes on the flat hypersurface twistor CR space supply
 
 [Read the paper (PDF)](https://github.com/lioristhmus/smooth-twistor-germs/releases/download/v1.0/smooth-twistor-germs-en-v1.0.pdf) · [Markdown](paper/smooth-twistor-germs-en-v1.0.md) · [Standalone TeX](paper/smooth-twistor-germs-en-v1.0.tex) · [Computational supplement](computations/README.md)
 
+The [Hexagon v2 bibliography](https://hexagonmath.org/2611.00698v2#bibliography) lists all 30 references in manuscript order. The [Zenodo record](https://doi.org/10.5281/zenodo.24385872) archives the version 1.0 paper and supplement.
+
 ## Files for version 1.0
 
 | File | Contents |
@@ -20,6 +22,6 @@ In the complete snapshot the PDF is also available at `paper/smooth-twistor-germ
 
 ## Citation and licenses
 
-Lior Isthmus (2026), *A two-chirality twistor correspondence for smooth Lorentzian Ricci-flat germs*, version 1.0. [Citation File Format](CITATION.cff) · [BibTeX](citation.bib)
+Lior Isthmus (2026), *A two-chirality twistor correspondence for smooth Lorentzian Ricci-flat germs*, version 1.0. [Hexagon v2](https://hexagonmath.org/2611.00698v2) · [Citation File Format](CITATION.cff) · [BibTeX](citation.bib)
 
 The manuscript, documentation, computational inputs and saved results are CC BY 4.0. Python code is Apache-2.0. [License terms and file scopes](LICENSES.md)

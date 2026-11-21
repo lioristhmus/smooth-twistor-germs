@@ -1,0 +1,18 @@
+{
+  "title": "A two-chirality twistor correspondence for smooth Lorentzian Ricci-flat germs",
+  "package_version": "1.0",
+  "github_release": "https://github.com/lioristhmus/smooth-twistor-germs/releases/tag/v1.0",
+  "zenodo_version_doi": "10.5281/zenodo.24385872",
+  "hexagon": {
+    "version": 2,
+    "status": "published",
+    "url": "https://hexagonmath.org/2611.00698v2",
+    "bibliography": {
+      "url": "https://hexagonmath.org/2611.00698v2#bibliography",
+      "entries": 30,
+      "matched_in_manuscript_order": 30,
+      "urls_in_reference_text": 36,
+      "clickable_external_links": 30
+    }
+  }
+}

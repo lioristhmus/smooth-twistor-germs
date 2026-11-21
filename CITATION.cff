@@ -7,6 +7,7 @@ authors:
   family-names: Isthmus
   orcid: https://orcid.org/0009-0004-7908-9876
 version: '1.0'
+doi: 10.5281/zenodo.24385872
 url: https://github.com/lioristhmus/smooth-twistor-germs/releases/tag/v1.0
 repository-code: https://github.com/lioristhmus/smooth-twistor-germs
 license:
@@ -28,4 +29,4 @@ preferred-citation:
     orcid: https://orcid.org/0009-0004-7908-9876
   year: 2026
   version: '1.0'
-  url: https://github.com/lioristhmus/smooth-twistor-germs/releases/tag/v1.0
+  url: https://hexagonmath.org/2611.00698v2
