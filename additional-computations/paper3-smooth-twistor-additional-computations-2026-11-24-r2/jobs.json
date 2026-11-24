@@ -1,0 +1,468 @@
+[
+  {
+    "name": "york/green",
+    "source": "york",
+    "entry": "green",
+    "script": "green.py",
+    "inputs": {}
+  },
+  {
+    "name": "york/cochains",
+    "source": "york",
+    "entry": "cochains",
+    "script": "cochains.py",
+    "inputs": {}
+  },
+  {
+    "name": "york/transport",
+    "source": "york",
+    "entry": "transport",
+    "script": "transport.py",
+    "inputs": {
+      "/in/cochains": "york/cochains"
+    }
+  },
+  {
+    "name": "york/verify",
+    "source": "york",
+    "entry": "verify",
+    "script": "verify.py",
+    "inputs": {
+      "/in/cochains": "york/cochains",
+      "/in/transport": "york/transport"
+    }
+  },
+  {
+    "name": "york/transport_tight",
+    "source": "york",
+    "entry": "transport_tight",
+    "script": "transport_tight.py",
+    "inputs": {
+      "/in/cochains": "york/cochains"
+    }
+  },
+  {
+    "name": "york/verify_tight",
+    "source": "york",
+    "entry": "verify_tight",
+    "script": "verify_tight.py",
+    "inputs": {
+      "/in/cochains": "york/cochains",
+      "/in/transport": "york/transport_tight"
+    }
+  },
+  {
+    "name": "far/reference",
+    "source": "far",
+    "entry": "reference",
+    "script": "experiment.py",
+    "inputs": {}
+  },
+  {
+    "name": "far/pilot",
+    "source": "far",
+    "entry": "pilot",
+    "script": "experiment.py",
+    "inputs": {}
+  },
+  {
+    "name": "far/coarse",
+    "source": "far",
+    "entry": "coarse",
+    "script": "experiment.py",
+    "inputs": {}
+  },
+  {
+    "name": "far/medium",
+    "source": "far",
+    "entry": "medium",
+    "script": "experiment.py",
+    "inputs": {}
+  },
+  {
+    "name": "far/fine",
+    "source": "far",
+    "entry": "fine",
+    "script": "experiment.py",
+    "inputs": {}
+  },
+  {
+    "name": "far/short",
+    "source": "far",
+    "entry": "short",
+    "script": "experiment.py",
+    "inputs": {}
+  },
+  {
+    "name": "far/exterior",
+    "source": "far",
+    "entry": "exterior",
+    "script": "experiment.py",
+    "inputs": {}
+  },
+  {
+    "name": "far/angular",
+    "source": "far",
+    "entry": "angular",
+    "script": "experiment.py",
+    "inputs": {}
+  },
+  {
+    "name": "far/refined",
+    "source": "far",
+    "entry": "refined",
+    "script": "experiment.py",
+    "inputs": {}
+  },
+  {
+    "name": "far/tolerance",
+    "source": "far",
+    "entry": "tolerance",
+    "script": "experiment.py",
+    "inputs": {}
+  },
+  {
+    "name": "checks/far-readback",
+    "source": "far",
+    "entry": "audit",
+    "script": "experiment.py",
+    "inputs": {
+      "/inputs/primary": "far"
+    }
+  },
+  {
+    "name": "transport/cr",
+    "source": "transport",
+    "entry": "cr",
+    "script": "experiment.py",
+    "inputs": {
+      "/cr": "york/cochains"
+    }
+  },
+  {
+    "name": "transport/pilot",
+    "source": "transport",
+    "entry": "pilot",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "transport/cr",
+      "/far": "far"
+    }
+  },
+  {
+    "name": "transport/coarse",
+    "source": "transport",
+    "entry": "coarse",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "transport/cr",
+      "/far": "far"
+    }
+  },
+  {
+    "name": "transport/medium",
+    "source": "transport",
+    "entry": "medium",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "transport/cr",
+      "/far": "far"
+    }
+  },
+  {
+    "name": "transport/fine",
+    "source": "transport",
+    "entry": "fine",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "transport/cr",
+      "/far": "far"
+    }
+  },
+  {
+    "name": "transport/outer",
+    "source": "transport",
+    "entry": "outer",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "transport/cr",
+      "/far": "far"
+    }
+  },
+  {
+    "name": "transport/readback",
+    "source": "transport",
+    "entry": "readback",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "transport/fine",
+      "/far": "far"
+    }
+  },
+  {
+    "name": "extension/probe0",
+    "source": "extension",
+    "entry": "probe0",
+    "script": "experiment.py",
+    "inputs": {}
+  },
+  {
+    "name": "extension/probe1",
+    "source": "extension",
+    "entry": "probe1",
+    "script": "experiment.py",
+    "inputs": {}
+  },
+  {
+    "name": "extension/probe2",
+    "source": "extension",
+    "entry": "probe2",
+    "script": "experiment.py",
+    "inputs": {}
+  },
+  {
+    "name": "extension/probe3",
+    "source": "extension",
+    "entry": "probe3",
+    "script": "experiment.py",
+    "inputs": {}
+  },
+  {
+    "name": "extension/moments",
+    "source": "extension",
+    "entry": "moments",
+    "script": "experiment.py",
+    "inputs": {}
+  },
+  {
+    "name": "extension/polynomial",
+    "source": "extension",
+    "entry": "polynomial",
+    "script": "experiment.py",
+    "inputs": {}
+  },
+  {
+    "name": "extension/ext0",
+    "source": "extension",
+    "entry": "ext0",
+    "script": "experiment.py",
+    "inputs": {}
+  },
+  {
+    "name": "extension/ext1",
+    "source": "extension",
+    "entry": "ext1",
+    "script": "experiment.py",
+    "inputs": {}
+  },
+  {
+    "name": "extension/ext2",
+    "source": "extension",
+    "entry": "ext2",
+    "script": "experiment.py",
+    "inputs": {}
+  },
+  {
+    "name": "extension/ext3",
+    "source": "extension",
+    "entry": "ext3",
+    "script": "experiment.py",
+    "inputs": {}
+  },
+  {
+    "name": "extension/inverse2",
+    "source": "extension",
+    "entry": "inverse",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "extension/ext2"
+    }
+  },
+  {
+    "name": "extension/pp2",
+    "source": "extension",
+    "entry": "pp",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "extension/inverse2"
+    }
+  },
+  {
+    "name": "extension/inverse3",
+    "source": "extension",
+    "entry": "inverse",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "extension/ext3"
+    }
+  },
+  {
+    "name": "extension/pp3",
+    "source": "extension",
+    "entry": "pp",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "extension/inverse3"
+    }
+  },
+  {
+    "name": "extension/smooth",
+    "source": "extension",
+    "entry": "smooth",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "extension/inverse3"
+    }
+  },
+  {
+    "name": "extension/filter32",
+    "source": "extension",
+    "entry": "filter32",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "extension/inverse3"
+    }
+  },
+  {
+    "name": "extension/wide",
+    "source": "extension",
+    "entry": "wide",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "extension/ext3"
+    }
+  },
+  {
+    "name": "extension/filter96",
+    "source": "extension",
+    "entry": "filter96",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "extension/wide"
+    }
+  },
+  {
+    "name": "extension/smooth32",
+    "source": "extension",
+    "entry": "smooth32",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "extension/inverse3"
+    }
+  },
+  {
+    "name": "extension/path1",
+    "source": "extension",
+    "entry": "path1",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "extension/inverse3"
+    }
+  },
+  {
+    "name": "extension/path2",
+    "source": "extension",
+    "entry": "path2",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "extension/inverse3"
+    }
+  },
+  {
+    "name": "extension/path4",
+    "source": "extension",
+    "entry": "path4",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "extension/inverse3"
+    }
+  },
+  {
+    "name": "extension/native3",
+    "source": "extension",
+    "entry": "native3",
+    "script": "experiment.py",
+    "inputs": {}
+  },
+  {
+    "name": "extension/fieldcheck",
+    "source": "extension",
+    "entry": "fieldcheck",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "extension/native3"
+    }
+  },
+  {
+    "name": "extension/native32",
+    "source": "extension",
+    "entry": "native32",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "extension/native3"
+    }
+  },
+  {
+    "name": "extension/native-smooth",
+    "source": "extension",
+    "entry": "smooth32",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "extension/native32"
+    }
+  },
+  {
+    "name": "extension/native96",
+    "source": "extension",
+    "entry": "native96",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "extension/native3"
+    }
+  },
+  {
+    "name": "extension/native-filter",
+    "source": "extension",
+    "entry": "filter96",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "extension/native96"
+    }
+  },
+  {
+    "name": "extension/native-path1",
+    "source": "extension",
+    "entry": "path1",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "extension/native32"
+    }
+  },
+  {
+    "name": "extension/native-path2",
+    "source": "extension",
+    "entry": "path2",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "extension/native32"
+    }
+  },
+  {
+    "name": "extension/native-path4",
+    "source": "extension",
+    "entry": "path4",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "extension/native32"
+    }
+  },
+  {
+    "name": "extension/report",
+    "source": "extension",
+    "entry": "report",
+    "script": "experiment.py",
+    "inputs": {
+      "/up": "extension"
+    }
+  }
+]

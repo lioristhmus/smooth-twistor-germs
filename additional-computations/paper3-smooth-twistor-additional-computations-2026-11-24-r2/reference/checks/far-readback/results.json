@@ -1,0 +1,87 @@
+{
+  "gates": {
+    "input quadrature": {
+      "value": 3.936846305894787e-15,
+      "limit": 1e-09,
+      "passed": true
+    },
+    "small amplitude": {
+      "value": 3.250105640453883e-07,
+      "limit": 2e-05,
+      "passed": true
+    },
+    "quadratic solve": {
+      "value": 7.405961526252366e-11,
+      "limit": 2e-05,
+      "passed": true
+    },
+    "grid": {
+      "value": 7.420460368790361e-11,
+      "limit": 2e-05,
+      "passed": true
+    },
+    "exterior": {
+      "value": 2.2305046355969607e-13,
+      "limit": 2e-06,
+      "passed": true
+    },
+    "iteration": {
+      "value": 0.0,
+      "limit": 2e-07,
+      "passed": true
+    },
+    "flux": {
+      "value": 3.2776292656653167e-10,
+      "limit": 2e-07,
+      "passed": true
+    },
+    "half source": {
+      "value": 2.600592904467014e-06,
+      "limit": 2e-05,
+      "passed": true
+    },
+    "zero": {
+      "value": 0.0,
+      "limit": 0.0,
+      "passed": true
+    }
+  },
+  "all_positive_and_trend": true,
+  "passed": true,
+  "stored_fields": {
+    "mean_ratio": [
+      0.12337811760966268,
+      0.12337805952983631,
+      0.12337800732884747,
+      0.12337798123343917,
+      0.1233779681858955,
+      0.12337796166212903
+    ],
+    "flux_ratio": [
+      0.12337828049023626,
+      0.12337816396553167,
+      0.12337805952073866,
+      0.12337800732856119,
+      0.1233779812334297,
+      0.1233779681858951
+    ],
+    "max_W": 1.9402834874390522e-10,
+    "boundary_monopole_ratio": 0.12337795513836328,
+    "max_mean_ratio_difference": 4.121702978920894e-15,
+    "max_flux_ratio_difference": 9.423573033018329e-13,
+    "max_W_difference": 2.5849394142282115e-26
+  },
+  "C2": 0.12337859685967813,
+  "observed_quartic": [
+    -0.010004554865961711,
+    -0.010021470027122914,
+    -0.01002570346288537,
+    -0.010026737409969677,
+    -0.010026895553216439,
+    -0.01002653354526678,
+    -0.010024836839123141
+  ],
+  "python": "3.12.3",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1"
+}

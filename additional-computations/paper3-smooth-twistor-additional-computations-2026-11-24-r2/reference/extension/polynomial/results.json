@@ -1,0 +1,52 @@
+[
+  {
+    "degree": 0,
+    "domain": 9,
+    "codomain": 5,
+    "rank": 5,
+    "augmented_rank": 5,
+    "image_control": true,
+    "negative_divergence_zero": true,
+    "negative_polynomial_nonzero": true
+  },
+  {
+    "degree": 1,
+    "domain": 18,
+    "codomain": 15,
+    "rank": 15,
+    "augmented_rank": 15,
+    "image_control": true,
+    "negative_divergence_zero": true,
+    "negative_polynomial_nonzero": true
+  },
+  {
+    "degree": 2,
+    "domain": 30,
+    "codomain": 30,
+    "rank": 30,
+    "augmented_rank": 30,
+    "image_control": true,
+    "negative_divergence_zero": true,
+    "negative_polynomial_nonzero": true
+  },
+  {
+    "degree": 3,
+    "domain": 45,
+    "codomain": 50,
+    "rank": 45,
+    "augmented_rank": 46,
+    "image_control": true,
+    "negative_divergence_zero": true,
+    "negative_polynomial_nonzero": true
+  },
+  {
+    "degree": 4,
+    "domain": 63,
+    "codomain": 75,
+    "rank": 63,
+    "augmented_rank": 64,
+    "image_control": true,
+    "negative_divergence_zero": true,
+    "negative_polynomial_nonzero": true
+  }
+]

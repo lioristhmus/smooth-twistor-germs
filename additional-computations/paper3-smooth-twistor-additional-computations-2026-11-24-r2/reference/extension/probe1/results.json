@@ -1,0 +1,14 @@
+{
+  "degree": 7,
+  "collar": 24,
+  "scalar_error": 0.23320746987992624,
+  "momentum_error": 0.0022098029382743075,
+  "relative_scalar": 0.37772361033027346,
+  "relative_momentum": 0.004238299613241582,
+  "wrong_scalar_sign": 1.2079463599963693,
+  "wrong_momentum_sign": 1.0421252325747186,
+  "selected_rr": 2.7755575615628914e-17,
+  "old_rr": 0.15564839215757514,
+  "shift_outside_collar": 7.712565098537645e-17,
+  "inner": 0.0
+}

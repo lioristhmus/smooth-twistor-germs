@@ -1,0 +1,71 @@
+[
+  {
+    "n": 12,
+    "eps": 0.002,
+    "steps": 2,
+    "path": "straight",
+    "file": "n12_e0.002_s2_straight.npz",
+    "defect": 8.577446997258533e-12,
+    "endpoint_error": 3.6821430073517955e-13,
+    "nonlinear_correction": 2.9522684022104956e-07,
+    "reference_floor": 1.3720801606679719e-18
+  },
+  {
+    "n": 12,
+    "eps": 0.002,
+    "steps": 2,
+    "path": "broken",
+    "file": "n12_e0.002_s2_broken.npz",
+    "defect": 4.287676374355083e-12,
+    "endpoint_error": 1.8308964832998493e-13,
+    "nonlinear_correction": 2.9522684022104956e-07,
+    "reference_floor": 1.3720801606679719e-18,
+    "path_difference": 1.8512465240519462e-13
+  },
+  {
+    "n": 12,
+    "eps": 0.002,
+    "steps": 4,
+    "path": "straight",
+    "file": "n12_e0.002_s4_straight.npz",
+    "defect": 2.1443615006520308e-12,
+    "endpoint_error": 9.205360327070229e-14,
+    "nonlinear_correction": 2.9522684022104956e-07,
+    "reference_floor": 1.3720801606679719e-18
+  },
+  {
+    "n": 12,
+    "eps": 0.002,
+    "steps": 4,
+    "path": "broken",
+    "file": "n12_e0.002_s4_broken.npz",
+    "defect": 1.0719188464255622e-12,
+    "endpoint_error": 4.5772438712420504e-14,
+    "nonlinear_correction": 2.9522684022104956e-07,
+    "reference_floor": 1.3720801606679719e-18,
+    "path_difference": 4.6281164558281783e-14
+  },
+  {
+    "n": 12,
+    "eps": 0.002,
+    "steps": 8,
+    "path": "straight",
+    "file": "n12_e0.002_s8_straight.npz",
+    "defect": 5.360901544591486e-13,
+    "endpoint_error": 2.3013429319162623e-14,
+    "nonlinear_correction": 2.9522684022104956e-07,
+    "reference_floor": 1.3720801606679719e-18
+  },
+  {
+    "n": 12,
+    "eps": 0.002,
+    "steps": 8,
+    "path": "broken",
+    "file": "n12_e0.002_s8_broken.npz",
+    "defect": 2.6797967517186015e-13,
+    "endpoint_error": 1.144314569100576e-14,
+    "nonlinear_correction": 2.9522684022104956e-07,
+    "reference_floor": 1.3720801606679719e-18,
+    "path_difference": 1.1570283628156864e-14
+  }
+]
